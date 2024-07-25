@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('checkout') {
+        stage('bhaiyu ki den') {
             steps {
                 git branch: 'main', url: 'https://github.com/lekhraj99/lekhraj.git'
             }
