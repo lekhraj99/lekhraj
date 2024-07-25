@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('checkout') {
+            steps {
+                git'https://github.com/Pritam-Khergade/student-ui.git'
+            }
+        }
+		stage('install docker') {
+            steps {
+                sh'''
+				sudo yum install -y docker
+				sudo systemctl start docker 
+				sudo systemctl enable docker 
+				'''
+            }
+        }
+		
+            }
+        }
+		
+    }
+}
