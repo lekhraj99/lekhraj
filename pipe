@@ -7,18 +7,17 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/lekhraj99/lekhraj.git'
             }
         }
-		stage('install docker') {
-            steps {
-                sh'''
-				sudo apt-get install -y docker
-				sudo systemctl start docker 
-				sudo systemctl enable docker 
-				'''
-            }
-        } stages {
+		
+stages {
         stage('bhaiyu') {
             steps {
                 echo'subham rathore kese ho'
+            }
+        }
+stages {
+        stage('bhaiyu1') {
+            steps {
+                echo'subham rathore kese ho ap'
             }
         }
 		
