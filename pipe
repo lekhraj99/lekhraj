@@ -17,7 +17,7 @@ stages {
 stages {
         stage('bhaiyu1') {
             steps {
-                echo'subham rathore kese ho ap'
+                echo'subham rathore kese ho ap banna'
             }
         }
 		
