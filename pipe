@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git 'https://github.com/lekhraj99/lekhraj.git'
+                git branch: 'main', url: 'https://github.com/lekhraj99/lekhraj.git'
             }
         }
 		stage('install docker') {
