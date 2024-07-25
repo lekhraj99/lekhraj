@@ -15,6 +15,11 @@ pipeline {
 				sudo systemctl enable docker 
 				'''
             }
+        } stages {
+        stage('bhaiyu') {
+            steps {
+                echo'subham rathore kese ho'
+            }
         }
 		
             }
