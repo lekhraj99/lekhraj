@@ -6,7 +6,7 @@ pipeline {
 stages {
         stage('bhaiyu') {
             steps {
-                echo'subham rathore kese ho bhaiya'
+                echo'subham rathore kese ho bhaiya haan bhaiya'
             }
         }
 stages {
